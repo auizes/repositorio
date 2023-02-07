@@ -1,0 +1,9 @@
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\Debug\ConsultorioMedico.exe.config
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.csproj.AssemblyReference.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.Properties.Resources.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.csproj.GenerateResource.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\Debug\ConsultorioMedico.pdb

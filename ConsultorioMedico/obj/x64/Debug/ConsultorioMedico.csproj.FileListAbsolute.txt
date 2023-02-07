@@ -1,0 +1,13 @@
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe.config
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.Properties.Resources.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.GenerateResource.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.AssemblyReference.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmSplash.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmConsulta.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmLogin.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmMenuPrincipal.resources
