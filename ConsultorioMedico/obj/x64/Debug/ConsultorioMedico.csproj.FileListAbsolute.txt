@@ -11,3 +11,9 @@ C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\Empresa
 C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmConsulta.resources
 C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmLogin.resources
 C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmMenuPrincipal.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmAgenda.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmConvenio.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmHospital.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmMedicos.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.FrmVacina.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\projetoSistema106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmEspecialidades.resources

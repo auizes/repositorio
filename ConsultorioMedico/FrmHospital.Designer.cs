@@ -1,7 +1,7 @@
 ﻿
 namespace ConsultorioMedico
 {
-    partial class FrmConsulta
+    partial class FrmHospital
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace ConsultorioMedico
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVoltarConsulta = new System.Windows.Forms.Button();
+            this.btnVoltarHospital = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -40,25 +40,25 @@ namespace ConsultorioMedico
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnVoltarConsulta);
+            this.panel1.Controls.Add(this.btnVoltarHospital);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(2, 442);
+            this.panel1.Location = new System.Drawing.Point(-3, 440);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(790, 121);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
-            // btnVoltarConsulta
+            // btnVoltarHospital
             // 
-            this.btnVoltarConsulta.Location = new System.Drawing.Point(624, 44);
-            this.btnVoltarConsulta.Name = "btnVoltarConsulta";
-            this.btnVoltarConsulta.Size = new System.Drawing.Size(130, 48);
-            this.btnVoltarConsulta.TabIndex = 4;
-            this.btnVoltarConsulta.Text = "&Voltar";
-            this.btnVoltarConsulta.UseVisualStyleBackColor = true;
-            this.btnVoltarConsulta.Click += new System.EventHandler(this.button5_Click);
+            this.btnVoltarHospital.Location = new System.Drawing.Point(624, 44);
+            this.btnVoltarHospital.Name = "btnVoltarHospital";
+            this.btnVoltarHospital.Size = new System.Drawing.Size(130, 48);
+            this.btnVoltarHospital.TabIndex = 4;
+            this.btnVoltarHospital.Text = "&Voltar";
+            this.btnVoltarHospital.UseVisualStyleBackColor = true;
+            this.btnVoltarHospital.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -96,7 +96,7 @@ namespace ConsultorioMedico
             this.button1.Text = "&Cadastrar";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // FrmConsulta
+            // FrmHospital
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,10 +104,11 @@ namespace ConsultorioMedico
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
-            this.Name = "FrmConsulta";
+            this.MinimizeBox = false;
+            this.Name = "FrmHospital";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmConsulta";
-            this.Load += new System.EventHandler(this.FrmConsulta_Load);
+            this.Text = "FrmHospital";
+            this.Load += new System.EventHandler(this.FrmHospital_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -116,7 +117,7 @@ namespace ConsultorioMedico
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnVoltarConsulta;
+        private System.Windows.Forms.Button btnVoltarHospital;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;

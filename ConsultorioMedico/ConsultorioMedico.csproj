@@ -66,17 +66,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgenda.Designer.cs">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsulta.Designer.cs">
       <DependentUpon>FrmConsulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConvenio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConvenio.Designer.cs">
+      <DependentUpon>FrmConvenio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEspecialidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEspecialidades.Designer.cs">
+      <DependentUpon>FrmEspecialidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHospital.Designer.cs">
+      <DependentUpon>FrmHospital.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMedicos.Designer.cs">
+      <DependentUpon>FrmMedicos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -90,19 +120,43 @@
     <Compile Include="FrmSplash.Designer.cs">
       <DependentUpon>FrmSplash.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVacina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVacina.Designer.cs">
+      <DependentUpon>FrmVacina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgenda.resx">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsulta.resx">
       <DependentUpon>FrmConsulta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmConvenio.resx">
+      <DependentUpon>FrmConvenio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEspecialidades.resx">
+      <DependentUpon>FrmEspecialidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHospital.resx">
+      <DependentUpon>FrmHospital.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMedicos.resx">
+      <DependentUpon>FrmMedicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSplash.resx">
       <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVacina.resx">
+      <DependentUpon>FrmVacina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

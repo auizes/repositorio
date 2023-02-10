@@ -55,7 +55,8 @@ namespace ConsultorioMedico
             this.texUsuario.MaxLength = 255;
             this.texUsuario.Name = "texUsuario";
             this.texUsuario.Size = new System.Drawing.Size(208, 20);
-            this.texUsuario.TabIndex = 1;
+            this.texUsuario.TabIndex = 0;
+            this.texUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.texUsuario_KeyDown);
             // 
             // lblSenha
             // 
@@ -84,31 +85,34 @@ namespace ConsultorioMedico
             this.texSenha.Name = "texSenha";
             this.texSenha.PasswordChar = 'l';
             this.texSenha.Size = new System.Drawing.Size(208, 18);
-            this.texSenha.TabIndex = 4;
+            this.texSenha.TabIndex = 1;
+            this.texSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.texSenha_KeyDown);
             // 
             // btnEntar
             // 
             this.btnEntar.Location = new System.Drawing.Point(290, 298);
             this.btnEntar.Name = "btnEntar";
             this.btnEntar.Size = new System.Drawing.Size(85, 32);
-            this.btnEntar.TabIndex = 5;
+            this.btnEntar.TabIndex = 2;
             this.btnEntar.Text = "&Entrar";
             this.btnEntar.UseVisualStyleBackColor = true;
+            this.btnEntar.Click += new System.EventHandler(this.btnEntar_Click);
             // 
             // btnSair
             // 
             this.btnSair.Location = new System.Drawing.Point(401, 298);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(85, 32);
-            this.btnSair.TabIndex = 6;
+            this.btnSair.TabIndex = 3;
             this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(780, 557);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntar);
             this.Controls.Add(this.texSenha);
@@ -121,6 +125,7 @@ namespace ConsultorioMedico
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consutorio medico";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

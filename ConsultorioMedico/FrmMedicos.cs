@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace ConsultorioMedico
 {
-    public partial class FrmConsulta : Form
+    public partial class FrmMedicos : Form
     {
         //Criando variáveis para controle do menu
         const int MF_BYCOMMAND = 0X400;
@@ -21,7 +21,7 @@ namespace ConsultorioMedico
         static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
         [DllImport("user32")]
         static extern int GetMenuItemCount(IntPtr hWnd);
-        public FrmConsulta()
+        public FrmMedicos()
         {
             InitializeComponent();
         }
@@ -33,11 +33,40 @@ namespace ConsultorioMedico
             this.Hide();
         }
 
-        private void FrmConsulta_Load(object sender, EventArgs e)
+        private void FrmMedicos_Load(object sender, EventArgs e)
         {
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+            //executando o método carrega especialidades
+            carregaCombo();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncadEsc_Click(object sender, EventArgs e)
+        {
+            frmEspecialidades abrir = new frmEspecialidades();
+            abrir.ShowDialog();
+        }
+
+        //Criando o método carrega especialidades
+        public void carregaCombo()
+        {
+            cmbEspecialidadeMedicos.Items.Add("Clinico geral");
+            cmbEspecialidadeMedicos.Items.Add("Cardiologista");
+            cmbEspecialidadeMedicos.Items.Add("Dentista");
+            cmbEspecialidadeMedicos.Items.Add("pediatrista");
+            cmbEspecialidadeMedicos.Items.Add("Veterinário");
+
+        }
+
+        private void cmbEspecialidadeMedicos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

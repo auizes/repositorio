@@ -29,11 +29,13 @@ namespace ConsultorioMedico
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSplash));
             this.lblPorcentagem = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.lblCarregando = new System.Windows.Forms.Label();
             this.pctlLogo = new System.Windows.Forms.PictureBox();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctlLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,13 +48,16 @@ namespace ConsultorioMedico
             this.lblPorcentagem.Size = new System.Drawing.Size(35, 24);
             this.lblPorcentagem.TabIndex = 0;
             this.lblPorcentagem.Text = "0%";
+            this.lblPorcentagem.Click += new System.EventHandler(this.lblPorcentagem_Click);
             // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(283, 275);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(189, 23);
-            this.progressBar1.TabIndex = 1;
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar1.TabIndex = 0;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // lblCarregando
             // 
@@ -63,6 +68,7 @@ namespace ConsultorioMedico
             this.lblCarregando.Size = new System.Drawing.Size(125, 24);
             this.lblCarregando.TabIndex = 2;
             this.lblCarregando.Text = "Carregando...";
+            this.lblCarregando.Click += new System.EventHandler(this.lblCarregando_Click);
             // 
             // pctlLogo
             // 
@@ -73,6 +79,11 @@ namespace ConsultorioMedico
             this.pctlLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctlLogo.TabIndex = 3;
             this.pctlLogo.TabStop = false;
+            // 
+            // tmrSplash
+            // 
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Tick += new System.EventHandler(this.tmrSplash_Tick);
             // 
             // FrmSplash
             // 
@@ -100,5 +111,6 @@ namespace ConsultorioMedico
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label lblCarregando;
         private System.Windows.Forms.PictureBox pctlLogo;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }
